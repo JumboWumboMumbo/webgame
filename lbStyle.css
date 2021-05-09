@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+
+body {
+    margin: 0px;
+    background-image: url("bgscore.png");
+    background-color: black;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-y: auto;
+    align-content:space-around;
+  	display:grid;
+  	justify-content:center;
+}

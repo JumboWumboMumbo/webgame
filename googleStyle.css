@@ -1,0 +1,8 @@
+@charset "ISO-8859-1";
+
+.center {
+  margin: auto;
+  width: 10%;
+  padding: 10px;
+  z-index: 3;
+}

@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+body {
+    margin: 0px;
+    background-image: url("bglogin.png");
+    background-color: black;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-y: auto;
+}
+
+.gameChar {
+	position: relative;
+	text-align: center;
+	margin-top: 25px;
+	margin-right: 40px;
+}
+  
+.gameChar img {
+	max-width: 100%;
+	width: 175;
+	height: auto;
+}
+
+@font-face {
+	font-family: silkscreen;
+	src: url("slkscr.ttf");
+}
+
+.welcome {
+	text-align: center;
+	font-family: silkscreen;
+	-webkit-animation: color-change 2s infinite;
+    animation: color-change 2s infinite;
+}
+
+@keyframes color-change {
+    0% { color: black; }
+    25% { color: black; }
+    50% { color: white; }
+    75% { color: white; }
+}
